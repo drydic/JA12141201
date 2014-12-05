@@ -13,7 +13,7 @@ public class PersonTest{
 		//对象的使用：引用.成员变量、引用.成员方法
 		//System.out.println("Name is " + geminno.name);
 		//System.out.println("Age is " + geminno.age);
-		
+		geminno.name = "Java";
 		
 		geminno.info();
 		gem.info();

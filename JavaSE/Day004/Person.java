@@ -2,8 +2,8 @@
 
 public class Person{
 	//成员变量：系统默认初始化具体的值，取决于类型
-	String name = "name";
-	int    age = 16;
+	String name = "name";//引用数据类型
+	int    age = 16;	//基本数据类型
 	//String sex;
 	
 	
