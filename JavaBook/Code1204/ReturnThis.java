@@ -8,7 +8,7 @@ public class ReturnThis{
 	public static void main(String[] args){
 		ReturnThis rt = new ReturnThis();
 		//可以连续调用同一个方法
-		rt.grow().grow().grow().grow().grow();
+		rt.grow().grow().grow();
 		System.out.println("rt的age Field值是：" + rt.age);
 	}
 }
