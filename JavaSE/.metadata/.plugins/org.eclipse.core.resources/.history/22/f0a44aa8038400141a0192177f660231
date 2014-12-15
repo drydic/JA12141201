@@ -1,0 +1,17 @@
+
+package employee;
+
+public class HourlyEmployee extends Employee {
+	private double hourPay;
+	private int hours;
+	
+	public HourlyEmployee() {
+		super();
+	}
+
+	public HourlyEmployee(String name, int birthMonth) {
+		super(name, birthMonth);
+		
+	}
+
+}

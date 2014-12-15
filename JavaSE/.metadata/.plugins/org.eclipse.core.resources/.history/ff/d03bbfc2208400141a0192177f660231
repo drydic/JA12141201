@@ -1,0 +1,13 @@
+package weapon;
+
+public class Army {
+	Weapon[] w;
+	int  index = 0;
+	
+	public Army(Weapon[] w) {
+		super();
+		this.w = new Wapon[num];
+	}
+	
+	
+}

@@ -1,0 +1,17 @@
+
+public class ExceptionDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] arr = new int[5];
+		int[] array = null;
+		
+		//arr[5] = 134;
+		array[0] = 123
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+
+package employee;
+
+
+public class SalesEmployee extends Employee {
+
+	private double sales;
+	private double percent;
+	public SalesEmployee() {
+		
+	}
+	public SalesEmployee(String name, int birthMonth) {
+		super(name, birthMonth);
+		
+	}
+
+}

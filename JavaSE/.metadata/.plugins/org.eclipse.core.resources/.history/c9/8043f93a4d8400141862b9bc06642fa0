@@ -1,0 +1,20 @@
+package practice15;
+
+class Person1{
+	public boolean equals(Object obj){
+		return true;
+	}
+}
+
+
+public class OverrideEqualsError {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

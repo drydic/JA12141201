@@ -1,0 +1,14 @@
+package employee;
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		//固定月薪员工
+		SalariedEmployee se = new SalariedEmployee("google",2222.2,1); 
+		System.out.println("name:" + se.getSalary() + "\tSalary" + se.getSalary(1));
+	}
+
+}

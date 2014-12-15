@@ -1,0 +1,12 @@
+package weapons;
+
+import weapon.Weapon;
+
+public class Tank extends Weapon {
+	public void attact(){
+		System.out.println("Ì¹¿Ë¹¥»÷");
+	}
+	public void move(){
+		System.out.println("µ¯¿ÉÒÆ¶¯");
+	}
+}

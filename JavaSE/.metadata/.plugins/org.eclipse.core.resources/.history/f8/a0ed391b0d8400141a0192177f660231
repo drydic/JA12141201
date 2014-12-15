@@ -1,0 +1,7 @@
+package weapons;
+
+import weapon.Weapon;
+
+public class Tank extends Weapon {
+
+}

@@ -1,0 +1,14 @@
+package practice15;
+
+public class StringCompareTest {
+
+	
+	public static void main(String[] args) {
+		String s1 = "·è¿ñjava";
+		String s2 = "·è¿ñ";
+		String s3 = "Java";
+		String s4 = "·è¿ñ" + "java";
+		String s5 = "" + "" + "";
+	}
+
+}

@@ -1,0 +1,24 @@
+package weapon;
+
+public class Army {
+	Weapon[] w;
+	int  index = 0;
+	
+	public Army(int num) {
+		super();
+		this.w = new Weapon[num];
+	}
+	public void addWeapon(Weapon wa){
+		w[index++] = wa;
+	}
+	public void attackAll(){
+		for (int i = 0; i < w.length; i++) {
+			System.out.println(w[i]);
+		}
+	}
+	public void moveAll(){
+		for (int i = 0; i < w.length; i++) {
+			System.out.println(w[i]);
+		}		
+	}
+}

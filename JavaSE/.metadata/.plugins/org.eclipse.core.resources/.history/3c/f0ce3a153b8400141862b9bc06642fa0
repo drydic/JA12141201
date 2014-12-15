@@ -1,0 +1,40 @@
+
+//演示抛出异常的流程
+class Test {
+	@SuppressWarnings("unused")
+	void run(int[] arr, int index) {
+		if(arr==null){
+			throw new NullPointerException("空指针异常");
+		}
+		if(index<0){
+			throw new ArrayIndexOutOfBoundsException("下标为负");
+		}else if(index>arr.length){
+			throw new ArrayIndexOutOfBoundsException("index>=数组长度" + arr.length);
+		}else{
+			
+			System.out.println(arr[index]);
+		}
+		
+		
+		
+	}
+
+
+public class ExceptionDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] arr = new int[5];
+		int[] array = null;
+
+		// arr[5] = 134;
+		// array[0] = 123;
+		Test test = new Test();
+		test.run(arr, 5);
+
+		System.out.println("==================");
+}
+

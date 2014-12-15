@@ -1,0 +1,15 @@
+package practice15;
+
+public class FinalVariableTest {
+
+	final int a = 6;
+	final String str;
+	final int c;
+	final static double d;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

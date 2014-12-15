@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package employee;
+
+/**
+ * @author C4
+ *
+ */
+public class SalesEmployee extends Employee {
+
+	/**
+	 * 
+	 */
+	public SalesEmployee() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param name
+	 * @param birthMonth
+	 */
+	public SalesEmployee(String name, int birthMonth) {
+		super(name, birthMonth);
+		// TODO Auto-generated constructor stub
+	}
+
+}

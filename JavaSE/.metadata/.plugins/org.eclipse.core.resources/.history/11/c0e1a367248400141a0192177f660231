@@ -1,0 +1,19 @@
+package weapon;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		Army a = new Army(9);
+		Tank tank = new Tank();
+		Flighter f = new Flighter();
+		WarShip w = new WarShip();
+		
+		a.addWeapon(tank);
+		a.addWeapon(f);
+		a.addWeapon(w);
+		
+		a.attactAll();
+		a.moveAll();
+	}
+
+}
