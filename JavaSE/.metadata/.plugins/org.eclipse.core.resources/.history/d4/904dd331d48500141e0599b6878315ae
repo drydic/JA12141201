@@ -1,0 +1,23 @@
+package _book;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class CollectionTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Collection c = new ArrayList();
+		c.add("孙悟空");
+		c.add(6);
+		System.out.println("C集合的元素个数为：" + c.size());
+		System.out.println(c);
+		c.remove(6);
+		System.out.println("C集合的元素个数为：" + c.size());
+		System.out.println("C集合是否包含\"孙悟空\"字符串：" + c.contains("孙悟空"));
+	}
+
+}

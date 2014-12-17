@@ -1,0 +1,22 @@
+package book;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class AccessException {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			FileInputStream fis = new FileInputStream("a.txt");
+		} catch (IOException e) {
+			// TODO: handle exception
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		}
+	}
+
+}

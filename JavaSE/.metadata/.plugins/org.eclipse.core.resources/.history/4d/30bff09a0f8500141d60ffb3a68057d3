@@ -1,0 +1,21 @@
+package book;
+
+import java.sql.Date;
+
+public class NullTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Date d = null;
+		try {
+			System.out.println(d.after(new Date()));
+		} catch (Exception e) {
+			// TODO: handle exception
+			
+		}
+	}
+
+}
