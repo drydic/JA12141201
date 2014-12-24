@@ -1,0 +1,11 @@
+package generic;
+class Father<T>{}
+public class Limited {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

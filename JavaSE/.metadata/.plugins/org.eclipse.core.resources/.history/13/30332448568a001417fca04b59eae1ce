@@ -1,0 +1,24 @@
+package generic;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/*
+ * 泛型：在程序中使用<>来指定具体的类型
+ * 	可以用在类的定义、接口定义、方法定义、集合
+ */
+public class GenericDemo {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList list = new ArrayList();
+		list.add(123);
+		list.add("Google");
+		list.add("baidu");
+		
+		System.out.println(list);
+		
+	}
+
+}

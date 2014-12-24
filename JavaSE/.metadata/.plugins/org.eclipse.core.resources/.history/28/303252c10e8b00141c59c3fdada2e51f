@@ -1,0 +1,12 @@
+/*
+ * 进程：是操作系统对应用程序资源分配、进程调度的最小单位【正在运行的程序】
+ */
+public class Demo {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

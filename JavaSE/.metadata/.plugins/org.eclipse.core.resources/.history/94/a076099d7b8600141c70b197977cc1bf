@@ -1,0 +1,30 @@
+package set;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class SetTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Set：无序、元素不能重复
+		Set set = new HashSet();
+		set.add("abc");
+		set.add("cba");
+		set.add("bac");
+		
+		Iterator iterator = set.iterator();
+		while (iterator.hasNext()) {
+			String type = (String) iterator.next();
+			
+		}
+		
+		System.out.println(set.add("cba"));
+		System.out.println(set);
+	}
+
+}

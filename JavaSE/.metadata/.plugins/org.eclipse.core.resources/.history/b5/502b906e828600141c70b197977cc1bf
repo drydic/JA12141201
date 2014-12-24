@@ -1,0 +1,23 @@
+package set;
+
+import java.util.HashSet;
+
+import bean.Person;
+
+/*
+ * 把自定义对象添加到hashset中 
+ */
+public class HashSetTest1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		HashSet hs = new HashSet();
+		hs.add(new Person("Google",12));
+		hs.add(new Person("Alibaba",13));
+		hs.add(new Person("Baidu",12));
+		System.out.println("" + hs + "size=" + hs.size());
+	}
+
+}

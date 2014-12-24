@@ -1,0 +1,14 @@
+package day13;
+
+import java.util.TreeSet;
+
+public class TreeSetHome {
+	public static void main(String[] args) {
+		TreeSet ts = new TreeSet();
+		ts.add(new Student("13156", "Google", 'ÄÐ', 18, 80));
+		ts.add(new Student("13156", "Google", 'ÄÐ', 18, 80));
+		ts.add(new Student("13156", "Google", 'ÄÐ', 18, 80));
+		ts.add(new Student("13156", "Google", 'ÄÐ', 18, 80));
+		ts.add(new Student("13156", "Google", 'ÄÐ', 18, 80));
+	}
+}

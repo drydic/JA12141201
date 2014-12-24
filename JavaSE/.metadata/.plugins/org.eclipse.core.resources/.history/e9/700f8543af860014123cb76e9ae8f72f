@@ -1,0 +1,10 @@
+package day13;
+
+public class Student {
+	private String sNo;
+	private String sName;
+	char sSex;
+	private int sAge;
+	private int sJava;
+	
+}

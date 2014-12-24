@@ -1,0 +1,24 @@
+package generic;
+
+class More<String,int>{
+	String name;
+	int  age;
+	public More(String name, int age){
+		this.name = name;
+		this.age = age; 
+	}
+	public K show() {
+		return name;
+	}
+}
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

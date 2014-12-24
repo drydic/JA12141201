@@ -1,0 +1,19 @@
+package day12;
+
+
+
+public class linkedDemoHome {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		linkedList arr = new linkedList();
+		
+		arr.add("13913535174");
+		//arr.add("1321");
+		
+		char[] a = arr.
+		
+	}
+}

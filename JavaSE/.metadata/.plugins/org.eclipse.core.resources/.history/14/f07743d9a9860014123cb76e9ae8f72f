@@ -1,0 +1,23 @@
+package day12;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class CollectionHome {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Collection co = new ArrayList();
+		co.add("13913535174");
+		String[] a = new String[co.size()];
+		co.toArray(a);
+		int[] b = a[0].toIntArray();
+		for (int i = 0; i < b.length; i++) {
+			
+		}
+	}
+
+}

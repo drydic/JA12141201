@@ -1,0 +1,23 @@
+
+public class Share implements Runnable {
+	int ticket = 10;
+	int num = 0;
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		for (int i = 1; i <= 10; i++) {
+			if (ticket > 0) {
+				ticket--;
+				num++;
+				System.out.println(Thread.currentThread().getName() + "卖出了第" + num + "张车票，还剩" + ticket + "张车票");
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+
+}

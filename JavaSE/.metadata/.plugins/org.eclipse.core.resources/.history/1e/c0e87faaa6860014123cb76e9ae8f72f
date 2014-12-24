@@ -1,0 +1,23 @@
+package day12;
+
+import java.util.LinkedList;
+import java.util.List;
+
+
+
+public class LinkedListHome {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		LinkedList arr = new LinkedList();
+		
+		arr.add("13913535174");
+		//arr.add("1321");
+		
+		String[] a = new String[(arr.size())];
+		arr.toArray(a);
+		
+	}
+}

@@ -1,0 +1,13 @@
+package bean;
+
+import java.util.Comparator;
+/*
+ * 比较器  ：先按年龄排序  再按姓名比较
+ */
+
+public class ComparatorByAge implements Comparator<Person> {
+
+	
+	}
+
+}

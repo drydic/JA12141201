@@ -1,0 +1,19 @@
+package finalÐÞÊÎ·û;
+
+import java.util.jar.Attributes.Name;
+
+class Name {
+	private String firstName;
+	private String lastName;
+	public Name(){	}
+	
+}
+public class Person1 {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

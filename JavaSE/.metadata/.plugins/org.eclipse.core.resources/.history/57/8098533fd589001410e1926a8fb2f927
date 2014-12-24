@@ -1,0 +1,26 @@
+package ³éÏóÀà;
+
+public class Triangle extends Shape {
+	
+	private double a;
+	private double b;
+	private double c;
+	
+	public Triangle(String color, double a, double b, double c) {
+		super(color);
+		
+	}
+
+	@Override
+	public double calPerimeter() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String getType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

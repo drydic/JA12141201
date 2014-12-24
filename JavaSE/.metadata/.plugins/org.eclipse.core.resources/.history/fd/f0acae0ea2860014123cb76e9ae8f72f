@@ -1,0 +1,19 @@
+package day12;
+
+import java.util.ArrayList;
+
+public class ArrayListHome {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		ArrayList arr = new ArrayList();
+		
+		arr.add("13913535174");
+		System.out.println(arr);
+		int[] a = toArray(int arr);
+		System.out.println(a[0]);
+		
+	}
+}

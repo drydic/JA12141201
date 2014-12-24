@@ -1,0 +1,33 @@
+package day12;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class CollectionHome {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int max=0;
+		Collection co = new ArrayList();
+		co.add("13913535174");
+		String[] a = new String[co.size()];
+		co.toArray(a);
+		char[] b = a[0].toCharArray();
+		for (int i = 0; i < b.length; i++) {
+			int count=0;
+			for (int j = i+1; j < b.length; j++) {
+				if (b[i]==b[j]) {
+					count++;
+				}
+			}
+			if (max<count) {
+				max=count;				
+			}			
+		}
+		System.out.println(max);
+	}
+
+}

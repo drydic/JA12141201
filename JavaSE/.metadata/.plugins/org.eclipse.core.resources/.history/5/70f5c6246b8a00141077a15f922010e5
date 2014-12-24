@@ -1,0 +1,15 @@
+package generic;
+
+class Base<T>{}
+public class Generic {
+
+	public static void test(Base<Base> base){
+		System.out.println("This is Test");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Base<Base> base = new Base<>();
+		test(base);
+	}
+
+}
