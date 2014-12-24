@@ -1,0 +1,13 @@
+package deadlocktest;
+class MyLock{
+	public static final Object locka = new Object();
+	public static final Object lockb = new Object();
+}
+public class DeadLockTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
