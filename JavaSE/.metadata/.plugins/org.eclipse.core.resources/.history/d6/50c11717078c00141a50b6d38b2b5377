@@ -1,0 +1,35 @@
+/*
+ * 生产者。消费者
+ */
+package producerconsumer;
+class Resrouce{
+	private String name;
+	private int count = 1;
+	private boolean flag = false;
+	public synchronized void set(String name) {
+		if (flag) {
+			try {
+				this.wait();
+			} catch (InterruptedException e) {
+				// TODO: handle exception
+			}
+			this.name = name + count;
+			count++;
+			System.out.println(Thread.currentThread().getName() + "..生产者.." + this.name);
+			flag = true;
+			notify();
+		}
+	}
+	
+}
+public class ProducerConsumerDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

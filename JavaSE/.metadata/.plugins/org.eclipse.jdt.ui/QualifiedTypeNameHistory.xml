@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.ListIterator"/>
-<fullyQualifiedTypeName name="_book.IteratorTest"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler"/>
 <fullyQualifiedTypeName name="_book.R"/>
 <fullyQualifiedTypeName name="_book.TreeSetTest"/>
@@ -51,13 +49,15 @@
 <fullyQualifiedTypeName name="RunnableDemo"/>
 <fullyQualifiedTypeName name="One"/>
 <fullyQualifiedTypeName name="Share"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="deadlocktest.MyLock"/>
 <fullyQualifiedTypeName name="deadlocktest.Test"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="resource.Resource"/>
 <fullyQualifiedTypeName name="resource.Input"/>
 <fullyQualifiedTypeName name="resource.Output"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="deadlock.DeadLock"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
 </qualifiedTypeNameHistroy>

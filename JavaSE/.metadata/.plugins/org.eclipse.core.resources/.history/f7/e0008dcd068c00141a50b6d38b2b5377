@@ -1,0 +1,20 @@
+/*
+ * 生产者。消费者
+ */
+package producerconsumer;
+class Resrouce{
+	private String name;
+	private int count;
+	
+}
+public class ProducerConsumerDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

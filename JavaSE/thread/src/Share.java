@@ -1,19 +1,55 @@
-
+/*
+ *产生线程安全问题的原因
+ *1.多个线程在操作共享数据的情况下：其他线程会对当期的线程造成干扰 
+ */
 public class Share implements Runnable {
-	int ticket = 10;
+	int ticket = 400;
 	int num = 0;
+	Object obj = new Object();
+
 	@Override
+	// public void run() {
+	// // TODO Auto-generated method stub
+	// for (int i = 1; i <= 10; i++) {
+	// synchronized(obj){
+	// if (ticket > 0) {
+	// try {
+	// Thread.sleep(100);
+	// } catch (InterruptedException e) {
+	//
+	// e.printStackTrace();
+	// }
+	// ticket--;
+	// num++;
+	// System.out.println(Thread.currentThread().getName() + "卖出了第" + num +
+	// "张车票，还剩" + ticket + "张车票");
+	// }
+	// }
+	// }
+	// }
 	public void run() {
-		// TODO Auto-generated method stub
-		for (int i = 1; i <= 10; i++) {
-			if (ticket > 0) {
-				ticket--;
-				num++;
-				System.out.println(Thread.currentThread().getName() + "卖出了第" + num + "张车票，还剩" + ticket + "张车票");
-			}
+		for (int i = 1; i <= 100; i++) {
+			test();
 		}
 	}
-	
+
+	public synchronized void test() {
+
+		if (ticket > 0) {
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+
+				e.printStackTrace();
+			}
+			ticket--;
+			num++;
+			System.out.println(Thread.currentThread().getName() + "卖出了第" + num
+					+ "张车票，还剩" + ticket + "张车票");
+
+		}
+	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Share t = new Share();
@@ -27,6 +63,5 @@ public class Share implements Runnable {
 		t2.start();
 		t3.start();
 	}
-
 
 }

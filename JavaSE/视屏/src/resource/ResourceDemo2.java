@@ -1,9 +1,34 @@
 package resource;
 //资源
 class Resource1{
-	String name;
+	private String name;
 	String sex;
 	boolean flag = false;
+	public synchronized void set(String name,String sex) {
+		if (flag) {
+			try {
+				this.wait();
+			} catch (InterruptedException e) {
+				// TODO: handle exception
+			}
+			this.name = name;
+			this.sex = sex;
+			flag = true;
+			this.notify();
+		}
+	}
+	public synchronized void out() {
+		if (!flag) {
+			try {
+				this.wait();
+			} catch (InterruptedException e) {
+				// TODO: handle exception
+			}
+			System.out.println(name+"...."+sex);
+		}
+		flag = false;
+		notify();
+	}
 }
 //输入
 class Input1 implements Runnable{
@@ -15,23 +40,10 @@ class Input1 implements Runnable{
 	public void  run() {
 		int x = 0;
 		while (true) {
-			synchronized (r) {
-				if (r.flag)
-					try {
-						r.wait();
-					} catch (InterruptedException e) {
-						
-					}
-				if (x==0) {
-					r.name = "mike";
-					r.sex = "nan";
-				}
-				else {
-					r.name = "丽丽";
-					r.sex = "女女女女女女";
-				}
-				r.flag = true;
-				r.notify();
+			if (x==0) {
+				r.set("maik", "nan");
+			}else {
+				r.set("丽丽", "女女女女女女女女");
 			}
 			x = (x+1)%2;
 		}
@@ -48,17 +60,7 @@ class Output1 implements Runnable{
 	}
 	public void run() {
 		while (true) {
-			synchronized (r) {
-				if (!r.flag)
-					try {
-						r.wait();
-					} catch (InterruptedException e) {
-						
-					}
-				System.out.println(r.name+"........."+r.sex);
-				r.flag = false;
-				r.notify();
-			}
+			r.out();
 		}
 	}
 }
