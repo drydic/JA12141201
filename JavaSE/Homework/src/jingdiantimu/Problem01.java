@@ -25,25 +25,31 @@ public class Problem01 {
 //			System.out.println("第" + i+ "个月的总数为：" + a3);
 //		}
 		
-		
-		
-		
-		
-		
-		Problem01 p1 = new Problem01();
-		for (int i = 1; i <= 100; i++) {
-			System.out.println("第" + i + "个月兔子的总数为：" + p1.fun(i));
+		long[] a = new long[93];
+		a[0] = 1;
+		a[1] = 1;
+		for (int i = 2; i < a.length; i++) {
+			a[i] = a[i-1] + a[i-2];
+			System.out.println("第" + (i+1)+ "个月的总数为：" + a[i-1]);
 		}
 		
+		
+		
+		
+//		Problem01 p1 = new Problem01();
+//		for (int i = 1; i <= 100; i++) {
+//			System.out.println("第" + i + "个月兔子的总数为：" + p1.fun(i));
+//		}
+		
 	}
-	public long fun(long n) {
-		if (n==1) {
-			return 1;
-		}else if (n==2) {
-			return 1;
-		}else {
-			return fun(n-1) + fun(n-2);
-		}
-	}
+//	public long fun(long n) {
+//		if (n==1) {
+//			return 1;
+//		}else if (n==2) {
+//			return 1;
+//		}else {
+//			return fun(n-1) + fun(n-2);
+//		}
+//	}
 
 }
