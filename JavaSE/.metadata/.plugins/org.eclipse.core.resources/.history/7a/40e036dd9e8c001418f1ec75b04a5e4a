@@ -1,0 +1,149 @@
+/*
+ * 多线程：线程任务系统
+ * 线程任务不相同的多线程
+ * 
+ * 1、怎么去获得共享数据？	----一参构造函数
+ * 2、怎么保证输入与输出线程同步？
+ * 3、产量==销量？
+ */
+package ipc;
+class Resource{
+	int id;
+	String name;
+	
+}
+
+//产线
+class Input implements Runnable{
+	Resource r;
+	
+	public Input(Resource r) {
+		super();
+		this.r = r;
+	}
+	int key = 0;
+	public void run() {
+		
+		
+	}
+	
+}
+//销售
+class Output implements Runnable{
+	Resource r;
+	public Output(Resource r) {
+		super();
+		this.r = r;
+	}
+	@Override
+	public void run() {
+		
+	}
+	
+}
+public class Test {
+
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

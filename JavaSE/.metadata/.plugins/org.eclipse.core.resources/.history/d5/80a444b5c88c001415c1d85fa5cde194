@@ -1,0 +1,24 @@
+package priority;
+class Demo extends Thread{
+	String name;
+
+	public Demo(String name) {
+		super();
+		this.name = name;
+	}
+	public void run() {
+		super.run();
+		System.out.println(getName());
+	}
+}
+public class PriorityDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

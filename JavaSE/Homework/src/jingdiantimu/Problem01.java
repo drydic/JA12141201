@@ -1,9 +1,5 @@
 package jingdiantimu;
 
-import java.util.Scanner;
-
-import org.omg.CORBA.PUBLIC_MEMBER;
-
 /*
  * 题目：古典问题：有一对兔子，从出生后第3个月起每个月都生一对兔子，
  * 小兔子长到第三个月后每个月又生一对兔子，

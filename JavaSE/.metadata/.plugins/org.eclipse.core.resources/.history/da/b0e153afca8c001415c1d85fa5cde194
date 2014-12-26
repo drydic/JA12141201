@@ -1,0 +1,16 @@
+package priority;
+
+public class SleepDemo extends Thread {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		super.run();
+		System.out.println("ÐÝÃß5s");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
