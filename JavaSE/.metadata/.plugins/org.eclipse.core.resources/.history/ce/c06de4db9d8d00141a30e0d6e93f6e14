@@ -1,0 +1,21 @@
+package file;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class BufferedWriterDemo {
+
+	
+	public static void main(String[] args) throws IOException {
+		FileWriter fr = new FileWriter("buf.txt");
+		BufferedWriter bufw = new BufferedWriter(fr);
+		for (int i = 1; i <= 4; i++) {
+			bufw.write("abcde" + i);
+			bufw.newLine();
+			bufw.flush();
+		}
+		bufw.close();
+	}
+
+}

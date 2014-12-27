@@ -1,0 +1,29 @@
+package file;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class IOExceptionDemo {
+
+	private static final String LINE_SEPARATOR = System.getProperty("Line.separator");
+
+	public static void main(String[] args) {
+		FileWriter fw = null;
+		try {
+			fw = new FileWriter("d:\\demo.txt");
+			fw.write("xixi" + LINE_SEPARATOR + "HAHA");
+		} catch (IOException e) {
+			System.out.println(fw.toString());
+		} finally {
+			if (fw != null)
+				try {
+					fw.close();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					throw new RuntimeException("πÿ±’ ß∞‹");
+				}
+		}
+
+	}
+
+}

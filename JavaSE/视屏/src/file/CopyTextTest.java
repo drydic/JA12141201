@@ -1,0 +1,20 @@
+package file;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class CopyTextTest {
+
+	public static void main(String[] args) throws IOException {
+		FileReader fr = new FileReader("IO流.txt");
+		FileWriter fw = new FileWriter("第一个.txt");
+		int ch = 0;
+		while((ch = fr.read())!=-1){
+			fw.write(ch);
+		}
+		fr.close();
+		fw.close();
+	}
+
+}

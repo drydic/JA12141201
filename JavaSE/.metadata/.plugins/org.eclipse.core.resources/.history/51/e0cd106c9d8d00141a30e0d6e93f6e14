@@ -1,0 +1,12 @@
+package file;
+
+import java.io.FileWriter;
+
+public class BufferedWriterDemo {
+
+	
+	public static void main(String[] args) {
+		FileWriter fr = new FileWriter("buf.txt");
+	}
+
+}

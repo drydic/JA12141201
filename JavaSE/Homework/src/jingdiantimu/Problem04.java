@@ -31,6 +31,7 @@ public class Problem04 {
 				k++;
 			}
 		}
+		in.close();
 	}
 
 }

@@ -1,0 +1,14 @@
+package file;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+public class CopyTextTest {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		FileReader fr = new FileReader("IO流.txt");
+		FileWriter fw = new FileWriter("第一个.txt");
+	}
+
+}

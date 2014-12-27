@@ -1,0 +1,35 @@
+package file;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class CopyTextTest2 {
+
+	private static final int NUM = 1024;
+
+	public static void main(String[] args) throws IOException {
+		FileReader fr = null;
+		FileWriter fw = null;
+		try {
+			fr = new FileReader("IOÁ÷");
+			fw = new FileWriter("copytext.txt");
+			char[] a = new char[NUM];
+			int len = 0;
+			while ((len = fr.read(a))!=-1) {
+				fw.write(a, 0, len);
+			}
+		} catch (Exception e) {
+			throw new RuntimeException("¶ÁÈ¡Ê§°Ü");
+		}
+		finally{
+			if(fr!=null){
+				fr.close();
+			}
+			if (fw!=null) {
+				fw.close();
+			}
+		}
+	}
+
+}

@@ -15,9 +15,6 @@ public class Test {
 		HourlyEmployee heEmployee = new HourlyEmployee("baidu",2,233.33,169);
 		System.out.println("name:" + heEmployee.getName() + "\tSalary:" + (float)heEmployee.getSalary(2));
 		System.out.println("name:" + heEmployee.getName() + "\tSalary:" + (float)heEmployee.getSalary(12));
-		
-		//有提成销售员
-		BasePlusSalesEmployee ba = new BasePlusSalesEmployee("Alibaba:" , 3, 90000, 0.2, 8888);
 	}
 
 }
