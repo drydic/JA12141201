@@ -1,0 +1,15 @@
+package char_stream;
+
+import java.io.FileReader;
+
+public class FileReaderDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FileReader fr =new FileReader("");
+	}
+
+}

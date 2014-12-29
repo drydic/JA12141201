@@ -5,8 +5,6 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-import javax.sound.sampled.Line;
-
 public class BufferedReaderDemo {
 
 	

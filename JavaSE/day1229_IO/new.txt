@@ -1,0 +1,2 @@
+流对象：操作文件内容
+google androidGmail

@@ -1,0 +1,18 @@
+package char_stream;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+public class FileReaderDemo {
+
+	/**
+	 * @param args
+	 * @throws FileNotFoundException 
+	 */
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		//文件输入流：文件必须存在否则：异常
+		FileReader fr =new FileReader("Google.txt");
+	}
+
+}

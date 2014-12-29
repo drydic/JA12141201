@@ -4,10 +4,24 @@
  */
 package jingdiantimu;
 
+import java.util.Scanner;
+
 public class Problem08 {
 
 	public static void main(String[] args) {
-		
+		Scanner in = new Scanner(System.in);
+		System.out.println("请输入a的值：");
+		int n = in.nextInt();
+		System.out.println("请输入相加的个数：");
+		int m = in.nextInt();
+		int b = n;
+		int sum = 0;
+		for (int i = 1; i <= m; i++) {
+			sum = sum + n;
+			n = b + n*10;
+		}
+		System.out.println("sum = " + sum);
+		in.close();
 	}
 
 }

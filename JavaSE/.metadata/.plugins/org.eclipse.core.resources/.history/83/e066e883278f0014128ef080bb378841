@@ -1,0 +1,15 @@
+package char_stream;
+/*
+ * File对象
+ * 流对象：		操作文件内容
+ */
+public class FileWriterDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

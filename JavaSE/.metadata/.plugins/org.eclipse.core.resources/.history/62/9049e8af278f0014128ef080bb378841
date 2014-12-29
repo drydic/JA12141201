@@ -1,0 +1,26 @@
+package char_stream;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+/*
+ * File对象
+ * 流对象：		操作文件内容
+ */
+public class FileWriterDemo {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+		FileWriter fw = new FileWriter("new.txt");
+		
+		
+		
+		
+		
+		fw.close();
+	}
+
+}

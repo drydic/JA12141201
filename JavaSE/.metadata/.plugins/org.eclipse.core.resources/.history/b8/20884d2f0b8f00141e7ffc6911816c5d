@@ -1,0 +1,21 @@
+package byte_stream;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class FileInputStreamDemo {
+
+	
+	public static void main(String[] args) throws IOException {
+		//1.创建文件对象
+		File file = new File("./src/byte_stream/FileInputStreamDemo.java");
+		//创建流对象
+		FileInputStream fis = new FileInputStream(file);
+		//IO操作
+		int ch = fis.read();
+		System.out.println((char)ch);
+		
+	}
+
+}
