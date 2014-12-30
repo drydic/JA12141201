@@ -1,0 +1,9 @@
+package process_stream;
+
+public class PrintStream {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

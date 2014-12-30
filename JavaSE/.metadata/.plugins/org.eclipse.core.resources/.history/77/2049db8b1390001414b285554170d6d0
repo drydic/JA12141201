@@ -1,0 +1,30 @@
+package net;
+
+public class DownUtil {
+	//第一下载资源的路径
+	private String path;
+	
+	//指定所次啊在的文件的保存位置
+	private String targetFile;
+	
+	//定义需要使用多少线程下载资源
+	private int threadNum;
+	
+	//定义下载的线程对象
+	private DownThread[] threads;
+	
+	//定义下载的文件大小
+	private int fileSize;
+
+	public DownUtil(String path, String targetFile, int threadNum) {
+		this.path = path;
+		this.targetFile = targetFile;
+		this.threadNum = threadNum;
+	}
+	
+	
+	
+	
+	
+	
+}

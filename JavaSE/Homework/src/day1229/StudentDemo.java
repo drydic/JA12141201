@@ -1,6 +1,5 @@
 package day1229;
 
-import java.io.InputStream;
 import java.util.Scanner;
 
 /* 有五个学生，每个学生有三门课（语文，数学，英语）的成绩
@@ -12,8 +11,8 @@ public class StudentDemo {
 
 	
 	public static void main(String[] args) {
-		Scanner in = new Scanner(InputStream);
-		Student s1 = in.next();
+		Scanner in = new Scanner(System.in);
+		Student s1 = in.hasNextLine();
 	}
 
 }

@@ -1,0 +1,14 @@
+package node_stream;
+/*
+ * 节点流：与底层设备文件关联、低级流
+ * 处理流：基于节点流、高级流
+ */
+public class StringNode {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

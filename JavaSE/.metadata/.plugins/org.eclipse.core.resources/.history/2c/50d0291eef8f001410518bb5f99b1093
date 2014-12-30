@@ -1,0 +1,7 @@
+package serialize.obj;
+
+public class ReaderObject {
+	public static void main(String[] args) {
+
+	}
+}

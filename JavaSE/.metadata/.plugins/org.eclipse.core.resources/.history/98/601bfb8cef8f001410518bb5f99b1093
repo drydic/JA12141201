@@ -1,0 +1,10 @@
+package serialize.obj;
+/*
+ * ∑¥–Ú¡–ªØ£∫
+ * 	1°¢ObjectIntputStream
+ */
+public class ReaderObject {
+	public static void main(String[] args) {
+
+	}
+}

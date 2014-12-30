@@ -1,0 +1,13 @@
+package redir_stdio;
+/*
+ * System.in	¼üÅÌ
+ * System.out	ÆÁÄ»
+ * 
+ */
+public class RedirStdio {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package net;
+
+public class InetAddressTest {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

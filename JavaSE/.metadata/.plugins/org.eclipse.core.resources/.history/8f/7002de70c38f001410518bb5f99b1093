@@ -1,0 +1,29 @@
+package node_stream;
+
+import java.io.StringReader;
+
+/*
+ * 节点流：与底层设备文件关联、低级流
+ * 处理流：基于节点流、高级流
+ */
+public class StringNode {
+
+	
+	public static void main(String[] args) {
+		//使用内存中的字符串作为数据源
+		String src = "aaaaaaaaaaaaaaaaaa"+
+					 "bbbbbbbbbbbbbbbbbb"+
+					 "cccccccccccccccccc"+
+					 "dddddddddddddddddd";
+		char[] buffer = new char[32];
+		int hasRead = 0;
+		StringReader sr = new StringReader(src);
+		
+		
+		
+		
+		
+		
+	}
+
+}

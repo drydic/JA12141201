@@ -1,0 +1,7 @@
+package net;
+
+public class MultiThreadDown {
+	public static void main(String[] args) {
+
+	}
+}

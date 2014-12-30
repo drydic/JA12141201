@@ -1,0 +1,13 @@
+package redir_stdio;
+/*
+ * System.in	╪Эел		setIn(InputStream)
+ * System.out	фад╩		setOut(PrintStream)
+ * System.err	фад╩		setErr(PrintSteam)
+ */
+public class RedirStdio {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

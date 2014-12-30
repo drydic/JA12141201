@@ -1,0 +1,26 @@
+package redir_stdio;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
+
+/*
+ * System.in	╪Эел		setIn(InputStream)
+ * System.out	фад╩		setOut(PrintStream)
+ * System.err	фад╩		setErr(PrintSteam)
+ */
+public class RedirStdio {
+
+	public static void main(String[] args) {
+		PrintStream ps = null;
+		try {
+			ps = new PrintStream(new FileOutputStream("redir.txt"));
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+}

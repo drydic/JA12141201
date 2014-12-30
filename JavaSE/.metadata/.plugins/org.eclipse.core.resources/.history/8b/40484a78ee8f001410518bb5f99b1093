@@ -1,0 +1,17 @@
+package serialize.obj;
+/*
+ * 1.可序列化的类
+ * 2、序列化？
+ * 		a、创建ObjectOutputStream输出流对象：处理流==基于节点
+ * 		b、IO：writeObject()
+ * 
+ * 【内存】对象-->IO输出流中-->磁盘-->IO输入流-->内存
+ * 				序列化				反序列化
+ */
+public class WriteObject {
+
+	public static void main(String[] args) {
+		Person p = new Person(100, "Google");
+		
+	}
+}

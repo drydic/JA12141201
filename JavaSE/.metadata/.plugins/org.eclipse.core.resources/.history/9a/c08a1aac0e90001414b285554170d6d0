@@ -1,0 +1,12 @@
+package net;
+
+public class InetAddressTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

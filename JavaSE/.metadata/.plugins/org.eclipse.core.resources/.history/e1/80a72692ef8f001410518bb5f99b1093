@@ -1,0 +1,28 @@
+package serialize.obj;
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
+/*
+ * 反序列化：									节点流
+ * 	1、ObjectIntputStream输入流对象：==处理流==基于FileInputStream
+ * 	2、readObject（）--
+ */
+public class ReaderObject {
+	public static void main(String[] args) {
+		//节点流
+		FileInputStream fis = new FileInputStream("obj.txt");
+		
+		//处理流
+		ObjectInputStream ois = new ObjectInputStream(fis);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

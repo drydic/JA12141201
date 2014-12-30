@@ -1,0 +1,5 @@
+package serialize.obj;
+
+public class ReaderObject {
+
+}
